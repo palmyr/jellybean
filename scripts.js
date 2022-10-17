@@ -1,5 +1,5 @@
 function handleTickInit(tick) {
-    var counter = Tick.count.down('2022-09-22T00:00:00+01:00');
+    let counter = Tick.count.up('2022-09-29T13:07:00+00:00');
 
     counter.onupdate = function(value) {
         tick.value = value;
